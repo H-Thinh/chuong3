@@ -1,11 +1,15 @@
 var a = prompt('nhap so a: ');
-if(a % 2 == 0 && N)
+if(Number(a) % 2 == 0 && Number(a) > 0)
 {
     console.log('so chan');
 }
-else
+else if(Number(a) % 2 != 0 && Number(a) > 0)
 {
     console.log('so le');
+}
+else
+{
+    console.log('nhap lai');
 }
 
 
